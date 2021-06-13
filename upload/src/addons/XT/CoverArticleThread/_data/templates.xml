@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates>
+  <template type="admin" title="coverImage.less" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[.xt--node-imagepreview {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.xt-custom-icon {
+	max-height: 20px;
+}]]></template>
+  <template type="admin" title="xt_dcat_node_macros" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[<xf:macro name="xt_dcat_cover_img" arg-forum="!" arg-node="!">
+	<xf:js src="xt/dcat/admin.js" min="1" /> 
+	<xf:css src="coverImage.less" />
+	<div class="js-xt-dcat-coverImage {$imageClass}">
+		<xf:assetuploadrow name="xt_cover_img_path" asset="cover_img" label="{{ phrase('xt_dcat_coverImage_path') }}"
+			value="{$forum.xt_cover_img_path}"
+			explain="{{ phrase('xt_dcat_coverImage_explain') }}"
+			placeholder="{{ phrase('xt_dcat_placeholder_imgPath') }}"
+			class="xt--node-imagepreview"
+			data-xf-init="xt-cover-image"
+		/>
+	</div>
+</xf:macro>]]></template>
+</templates>

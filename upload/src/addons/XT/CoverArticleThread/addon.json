@@ -1,0 +1,26 @@
+{
+    "legacy_addon_id": "",
+    "title": "[XT] Default Cover for Article Thread",
+    "description": "This add-on let you set a default cover image for article threads.",
+    "version_id": 1000031,
+    "version_string": "1.0.0 Beta 1",
+    "dev": "McAtze",
+    "dev_url": "https://xenforo.com/community/members/mcatze.553/",
+    "faq_url": "",
+    "support_url": "",
+    "extra_urls": {
+        "Donate": "https://paypal.me/itmaku",
+        "Send a gift": "https://www.amazon.de/hz/wishlist/ls/P6AE8RT0DGU3"
+    },
+    "require": {
+        "XF": [
+            2020010,
+            "XenForo 2.2.0+"
+        ],
+        "php": [
+            "7.4.0",
+            "PHP 7.4.0+"
+        ]
+    },
+    "icon": "fa-images"
+}

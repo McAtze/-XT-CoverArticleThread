@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template_modifications>
+  <modification type="admin" template="forum_type_config_article" modification_key="xt_dcat_insert_macro" description="Insert macros for default cover imge" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[</xf:foreach>]]></find>
+    <replace><![CDATA[$0
+<div class="js-articlePreviewOptions">
+	<xf:macro template="xt_dcat_node_macros" name="xt_dcat_cover_img" arg-forum="{$forum}" arg-node="{$node}" />
+</div>]]></replace>
+  </modification>
+  <modification type="public" template="post_article_macros" modification_key="xt_dcat_insert_coverImg" description="Insert default cover image" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[<xf:if is="$thread.cover_image">]]></find>
+    <replace><![CDATA[<xf:if is="!$thread.cover_image AND !$thread.Forum.xt_cover_img_path">
+	<a href="{$linkUnread}" 
+	   class="articlePreview-image" 
+	   style="background-image: url('{{ base_url('styles/default/xt/dcat/defaultCover.jpg') }}')" 
+	   aria-hidden="true" 
+	   tabindex="-1">&nbsp;</a>
+<xf:elseif is="!$thread.cover_image" />
+	<a href="{$linkUnread}" 
+	   class="articlePreview-image" 
+	   style="background-image: url('{{ link($thread.Forum.xt_cover_img_path) }}')"
+	   aria-hidden="true" 
+	   tabindex="-1">&nbsp;</a>
+<xf:else />]]></replace>
+  </modification>
+</template_modifications>
