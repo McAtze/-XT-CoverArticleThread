@@ -1,7 +1,5 @@
 {
-    "js/xt/dcat/admin.js": "05dcb6de69c55a5d35f9b1b0a13232af01a1f405b4e36559ec3529b7688370f5",
-    "js/xt/dcat/admin.min.js": "48854b24ea90bf07c03c70a45353ac0710e5657bcb247f75f0439cda9f562d8d",
-    "src/addons/XT/CoverArticleThread/addon.json": "3150f1c5814392d9fe5cee61fa66774c7bedee9474a44d6cfe002376bc8da77c",
+    "src/addons/XT/CoverArticleThread/addon.json": "0dcffd1ac02ff0383826331bfc5e0ef1c5836600688fe9b27b3fefd333894fb7",
     "src/addons/XT/CoverArticleThread/Listener.php": "6f38fa1df6bf3cd63b8c76b28caef9183b9801563cba60c8a2c45c0cc5ee3b11",
     "src/addons/XT/CoverArticleThread/Setup.php": "91b55c4e0f0a02571db801fe7645d277308dc60a907167450ae540d71c177b84",
     "src/addons/XT/CoverArticleThread/XF/Admin/Controller/Asset.php": "e4131cd5f84e0a2298d8381e60379b764a4746fde53e0e5b78c7272f7c594d54",
@@ -31,7 +29,7 @@
     "src/addons/XT/CoverArticleThread/_data/style_properties.xml": "8b8690a8512f01f219dd2da76e3d0c5f62afc1f317b87794a7331c859c36a7a8",
     "src/addons/XT/CoverArticleThread/_data/style_property_groups.xml": "68e1879cb3846c42d978487aa8d5145ff3335fc39e58016878824d5cf3fd684c",
     "src/addons/XT/CoverArticleThread/_data/templates.xml": "4de3a1d307fe9910f5359f78be52d912235c8116d1560bd722c80a6a95238ce3",
-    "src/addons/XT/CoverArticleThread/_data/template_modifications.xml": "7bbe52fdee5a133003a48471a8d3addcde3093a756b6db195427813cbf3d7d4e",
+    "src/addons/XT/CoverArticleThread/_data/template_modifications.xml": "535bf8d34d319ed10686f0ea89c13449f009baa9c1be171b4f33103fb4e5a076",
     "src/addons/XT/CoverArticleThread/_data/widget_definitions.xml": "37e46965256430f24004c2e7f08ba08f9b0d1cbcc4d70e84b3f4e3ffb713e64b",
     "src/addons/XT/CoverArticleThread/_data/widget_positions.xml": "a29cee66134f6bc5d75ed9df1eef21096c24401915c5b5c774389c3d7bb2d5b3"
 }
